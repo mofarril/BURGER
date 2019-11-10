@@ -1,4 +1,4 @@
-// Import MySQL connection.
+// Import MySQL connection via connction.js file. 
 var connection = require("../config/connection.js");
 
 // Helper function for SQL syntax.
