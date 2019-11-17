@@ -1,0 +1,13 @@
+.container{
+    display: inline-block;
+}
+
+h1 {
+       text-align: center;
+    }
+
+img{
+    height:200px;
+    width: 200px;
+    margin-Left: 300px;
+    }
