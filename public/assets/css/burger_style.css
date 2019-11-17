@@ -1,13 +1,66 @@
+*{
+    margin:auto;
+    background-color: #07b0b8; 
+   
+}
 .container{
+    
     display: inline-block;
+    font-family: 'Fredericka the Great', cursive;
+    margin: auto;
+    position: absolute;      
+    overflow: hidden;
+    opacity: 0.6;
 }
 
 h1 {
        text-align: center;
+        padding: 25px; 
+        margin: auto;
+        background-color:#ffffff05;
+        border-radius: 100px;
+        font-weight: 300px;
+
     }
 
 img{
     height:200px;
     width: 200px;
-    margin-Left: 300px;
-    }
+    margin: auto;
+    padding: 10px; 
+    border-radius: 100px;
+    background-color: #07afb841;
+    border:4px solid #ffffffe0; 
+     
+        }
+
+  .fresh{
+    padding: 10px;
+    margin-left: 30px;
+    font-family: 'Cabin', sans-serif;
+
+  }
+
+  .eaten{
+      padding: 10px;
+      margin-left: 100px;
+      font-family: 'Cabin', sans-serif;
+
+  }
+
+  .addOne{
+      padding: 10px;
+      font-family: 'Cabin', sans-serif;
+
+  }
+
+  .change-devoured, .add{
+    border-radius: 5px; 
+  }
+
+  h2 {
+    font-family: 'Cabin', sans-serif;
+  }
+  button {
+      background-color: aliceblue;
+  }

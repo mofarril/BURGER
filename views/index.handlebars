@@ -2,11 +2,13 @@
   <div class="row">
     <div class="title">
       <h1>EAT-dah-Burger!</h1>
+      <div class="row">
       <img src="assets/img/burger.jpg" alt="Clip">
+    </div>
     </div>
   </div>
   <div class="row">
-    <div class="col">
+    <div class="col-5">
       <div class="fresh">
         <h2>Burgers to Eat!</h2>
 
@@ -16,7 +18,7 @@
           <li>
             {{burger_name}}
             <button class="change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}">
-              {{#if devoured}}Devour IT!{{else}}DEVOURED!{{/if}}
+              {{#if devoured}}Devour IT!{{else}}DEVOUR?{{/if}}
             </button>
 
           </li>
@@ -25,7 +27,7 @@
         </ol>
       </div>
     </div>
-     <div class="col">
+     <div class="col-3">
         <div class="addOne">
           <h2>Add a Burger</h2>
           <form class="create-form">
@@ -33,11 +35,11 @@
               <label for="ca">Burger Name:</label>
               <input type="text" id="ca" name="name">
             </div>
-            <button type="submit">Add Burger</button>
+            <button type="submit" class= "add">+</button>
           </form>
         </div>
       </div>
-    <div class="col">
+    <div class="col-4">
       <div class="eaten">
         <h2>Burgers Devoured!</h2>
 
