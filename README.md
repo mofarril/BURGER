@@ -5,7 +5,7 @@ OVERVIEW: We have used Node JS, Express JS, MySQL, ORM and handlebars for this a
 
 HOW TO USE: User will navigate to the app and type the burger name he wants to eat and it will keep adding the burgers. with the button called devour it. When user clicks the button devour it, it will move to the second column that containes all the devoured burgers. User cannot enter empty value to the text box.
 
-DEPLOYED VERSION LINKS: HEROKU Link: https://burger-eaten.herokuapp.com/ Github Link: 
+DEPLOYED VERSION LINKS: HEROKU Link: https://burger-eaten.herokuapp.com/ Github Link: https://github.com/mofarril/BURGER
 
 TECHNOLOGIES USED: Node JS, Express JS, ORM, Handlebars, MySQL.
 
